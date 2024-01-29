@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        h1
+        {
+            border : 1px solid black;
+            text-align:center;
+            background-color:burlywood;
+        }
+        h2
+        {
+            border: 1px dotted black;
+            text-align:center;
+            background-color:yellow;
+        }
+        h1,h2
+        {
+            color:rgb(173, 28, 18);
+        }
+        .info
+        {
+            border:2px solid black;
+            text-align:center;
+        }
+        h4
+        {
+            border:1px dashed green;
+            text-align:center;
+            font-size:25px;
+        }
+        h5
+        {
+            border:2px groove black;
+            text-align:center;
+        }
+        h6
+        {
+            border:3px ridge black;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1><marquee direction="right">This is my first home Page</marquee></h1>
+    <h2>Welcome to HTML</h2>
+    <div class="info">
+        <h3 style="border: 1px dotted black;">ALL ABOUT HTML</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, quis molestiae. Tempore qui 
+        laboriosam modi ex, minima voluptates itaque odio aut quisquam natus ratione facere veritatis illo
+         sapiente iste optio!</p>
+    </div>
+    <h4>HTML stands for Hyper Text Markup Language</h4>
+    <h5>This language contains tags</h5>
+    <h6>HTML is used for web developement</h6>
+    <p style="text-align:center;">Thank you.......!</p>
+</body>
+</html>
